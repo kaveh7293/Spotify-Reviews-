@@ -11,4 +11,10 @@
       <li>Lemmatisation is done to use the root of the words (e.g., convert provided to provide). Note that lemmatisation is more powerful than stemming where the resulting outcome are usually meaningless (e.g., convert provided to provid).</li>
     </ul>
    <li> A tockenizer is used to convert the texts into the numbers and assign a unique number to each distinct word. Padding is done in the next step in order to convert the sequences with different lengths into the same size by putting additional zeros at the start of the sequence with shorter lengths than the maximum sequnce length.</li>
-  <li> An embedding matrix is constructed based on the tocknized values of the words and using already trained embedding matrix downloaded from <a href='https://nlp.stanford.edu/projects/glove/'> here </a>.</li>
+  <li> An embedding matrix is constructed based on the tocknized values of the words and using already trained embedding matrix downloaded from <a href='https://nlp.stanford.edu/projects/glove/'> here. </a> To do so, the row number in the embedding matrix corresponds to the index of the word based on their tockenized values.</li>
+  <li> The embedded matrix is used in the embeddding layer and set trainable option to false so that no embedding is implemented.</li>
+  <li> Fifty bidirectional LSTM units are added next to the embedding layer and a dropout layer is also added to prevent overfitting. </li>
+  <li> A global maxpooling layer is added afterwards so that the results from all LSTM units become equally important (i.e., by doing so we further improve the long term memory of our neural network).</li>
+  <li> The results of the global maxpooling layer is connected to a dense layer with 3 softmax units</li>
+  <li> The model is compiled and the model is trained based on training data.</li>
+ </ol>
