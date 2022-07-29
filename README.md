@@ -23,6 +23,9 @@
 
 <img src='https://github.com/kaveh7293/Spotify-Reviews-/blob/main/Screenshot%202022-07-29%20014349.jpg' height='600' width='700'><br>
   
-  As shown, we considered the length of all the sentences to be <strong> 30 </strong>. We use padding for the reviewes to make the length of all the reviewes 30. We use a embedding length so that the sequence of the words can be converted to sequences of vectors with a length of 30 (i.e., embedding dimension is 30). We then use LSTM units with 20 elements. One hundred LSTM units whill be used in parallel since the input sequences has a length of 0. As shown, we used bidirectional LSTM to account for the correlation between all the words in a sentence. Next, we use maxpooling units to get the maximum value from each LSTM unit and pass that into a fully-connected layer with three outputs with softmax activation functions. </p>
-
-</p>
+  As shown, I considered the length of all the sentences to be <strong> 30 </strong>. We use padding for the reviewes to make the length of all the reviewes 30. We use a embedding length so that the sequence of the words can be converted to sequences of vectors with a length of 30 (i.e., embedding dimension is 30). We then use LSTM units with 20 elements. One hundred LSTM units whill be used in parallel since the input sequences has a length of 0. As shown, we used bidirectional LSTM to account for the correlation between all the words in a sentence. Next, we use maxpooling units to get the maximum value from each LSTM unit and pass that into a fully-connected layer with three outputs with softmax activation functions. </p>
+  
+<h3> Fitting the Model</h3>
+<p> I fitted the model using 10 epochs and a batch size of 120. Also, I kept 20 of the data for validation (i.e., I put validation_data=(xtest, ytest)) to see the performance of the fit when the test data is used.</p>
+<h3> Model Testing</h3>
+<p> In this section, the model is tested using several different sentences to check whether the trained model is working properly
