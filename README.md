@@ -39,11 +39,11 @@
   </tr>
   <tr>
     <td>absoloutly love the songs, liked the suggestions, love the user-friendly environment</td>
-    <td>Maria Anders</td>
+    <td>Good</td>
   
   </tr>
   <tr>
-    <td>Good</td>
-    <td>Francisco Chang</td>
+    <td> I hate the app</td>
+    <td>Bad</td>
   </tr>
 </table>
