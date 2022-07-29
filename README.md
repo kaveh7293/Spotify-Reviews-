@@ -19,8 +19,8 @@
   <li> The model is compiled and the model is trained based on training data.</li>
  </ol>
 <h3> Model Description </h3>
-<p> The architecture of the RNN model is shown in the following figure.
+<p> The architecture of the RNN model is shown in the following figure.<br>
 
-<img src='https://github.com/kaveh7293/Spotify-Reviews-/blob/main/Screenshot%202022-07-29%20014349.jpg'>
+<img src='https://github.com/kaveh7293/Spotify-Reviews-/blob/main/Screenshot%202022-07-29%20014349.jpg' height='600' width='400'>
 
 </p>
