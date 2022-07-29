@@ -18,3 +18,9 @@
   <li> The results of the global maxpooling layer is connected to a dense layer with 3 softmax units</li>
   <li> The model is compiled and the model is trained based on training data.</li>
  </ol>
+<h3> Model Description </h3>
+<p> The architecture of the RNN model is shown in the following figure.
+
+<img src='https://github.com/kaveh7293/Spotify-Reviews-/blob/main/Screenshot%202022-07-29%20014349.jpg'>
+
+</p>
