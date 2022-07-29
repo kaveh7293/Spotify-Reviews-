@@ -1,4 +1,4 @@
-# Spotify-Reviews
+# Spotify-Reviews-Classification
 <h3> Spotify Reviews Dataset </h3><br>
 <p> In this problem, we use the spotify dataset to obtain the the corresponding ratings for the comments given by the users. The dataset from kaggle website can be obtained from <a href='https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022'>here</a>. We assign the ratings 4 and 5 as the good review, 3 as the neutral review and one and two as bad reviews. Our goal is to predict the reviews based on the comments that are given. </p>
 <h3> Steps</h3>
