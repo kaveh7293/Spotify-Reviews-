@@ -46,4 +46,13 @@
     <td> I hate the app</td>
     <td>Bad</td>
   </tr>
+  
+  <tr>
+    <td> I hate the app</td>
+    <td>Bad</td>
+  </tr>
+  <tr>
+    <td>I absoloutely recommend it to others</td>
+    <td>Good</td>
+   </tr>
 </table>
