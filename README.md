@@ -23,6 +23,6 @@
 
 <img src='https://github.com/kaveh7293/Spotify-Reviews-/blob/main/Screenshot%202022-07-29%20014349.jpg' height='600' width='700'><br>
   
-  As shown, we considered the length of all the sentences to be <strong> 100 </strong>. We use padding for the reviewes to make the length of all the reviewes 100. We use a embedding length so that the sequence of the words can be converted to sequences of vectors with a length of 100. We then use LSTM units with 50 elements. One hundred LSTM units whill be used in parallel since the sequence has a length of 100.  
+  As shown, we considered the length of all the sentences to be <strong> 100 </strong>. We use padding for the reviewes to make the length of all the reviewes 100. We use a embedding length so that the sequence of the words can be converted to sequences of vectors with a length of 100 (i.e., embedding dimension is 100). We then use LSTM units with 50 elements. One hundred LSTM units whill be used in parallel since the input sequences has a length of 100. As shown, we used bidirectional LSTM to account for the correlation between all the words in a sentence. Next, we use maxpooling units to get the maximum value from each LSTM unit and pass that into a fully-connected layer with three outputs with softmax activation functions. </p>
 
 </p>
