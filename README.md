@@ -31,4 +31,19 @@
 <img src='https://github.com/kaveh7293/Spotify-Reviews-/blob/main/download%20(1).png'><br>
 
 <h3> Model Testing</h3>
-<p> In this section, the model is tested using several different sentences to check whether the trained model is working properly
+<p> In this section, the model is tested using several different sentences to check whether the trained model is working properly. In the following table, the sentence that has been used and the corresponding predicted value is shown.<br>
+  <table>
+  <tr>
+    <th>Comment</th>
+    <th>Predicted Rating</th>
+  </tr>
+  <tr>
+    <td>absoloutly love the songs, liked the suggestions, love the user-friendly environment</td>
+    <td>Maria Anders</td>
+  
+  </tr>
+  <tr>
+    <td>Good</td>
+    <td>Francisco Chang</td>
+  </tr>
+</table>
