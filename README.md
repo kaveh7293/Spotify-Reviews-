@@ -48,7 +48,7 @@
   </tr>
   
   <tr>
-    <td> I hate the app</td>
+    <td> It is an awful app</td>
     <td>Bad</td>
   </tr>
   <tr>
